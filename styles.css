@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    color: #424242;
+    line-height: 1.4;
+  }
+  
+  .container {
+    margin: 2em auto;
+    max-width: 630px;
+    text-align: left;
+  }
+  
+  .orange {
+    color: #EB613C;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  .box {
+    margin-left: 25%;
+    width: 50%;
+  }
+  
+  .box-border {
+    padding: 15px 15px 15px 15px;
+    border: 1px solid #e5e3e3;
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  input {
+    width: 45%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .donateButton {
+    width: 50%;
+    text-align: center;
+    background-color: #21B82C;
+    color: white;
+    padding: 12px 20px;
+    margin: 14px 0 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px #ddd;
+  }
+  
+  .modalLink {}
+  
+  .bottomButtons {
+    width: 49%;
+    text-align: center;
+    background-color: #FBFBFB;
+    padding: 12px 20px;
+    margin: 14px 0 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px #ddd;
+  }
+  
+  .stausbar {
+    background-color: #424242;
+    color: white;
+    padding: 12px 12px 12px 12px;
+    margin: 14px 0 8px 0;
+    display: inline-block;
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px #ddd;
+  }
+  
+  /* FONTS:
+   font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif; 
+  */
+  
+  /* COLORS: 
+    blue: #20A1D4;
+    green: #1CBC2C;
+    orange: #EF5F3C;
+    black: #424242;
+    grey: #777;
+    light grey: #eaeaea;
+  */
+  
+  #myProgress {
+    width: 100%;
+    border: 1px solid #e5e3e3;
+    box-shadow: 0 0px40px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #myBar {
+    width: 10%;
+    height: 20px;
+    background-color: #EB613C;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Modal Content */
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

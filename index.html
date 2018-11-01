@@ -1,0 +1,61 @@
+
+<html>
+    <head>
+            <title>Progress bar with JS and CSS</title>
+            <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+<div class="container">
+
+        <div class="box">
+          <div class="stausbar" id="statusBar">
+            <p>
+              <span class="bold" id="remainingValue">$167</span> still needed for this project.
+            </p>
+      
+          </div>
+          <div id="myProgress">
+            <div id="myBar"></div>
+          </div>
+          <div class="box-border">
+      
+      
+      
+            <p>
+              <span class="orange">Only 3 days left</span> to fund the project.
+            </p>
+            <p>
+              Join the <span class="bold">42</span> other donors who have already supported this project. Every dollar helps.
+            </p>
+            <span class="currencyinput">$<input type="text" name="currency" id="amount" value= 50></span>
+            <button type="button" class="donateButton" id="donateButton">
+        Give Now
+        </button>
+            <a href='javascript:void(0)' id='modalLink' class="modalLink">
+        why give $50?
+        </a>
+            <div id="myModal" class="modal">
+      
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Please donate $50 to help the project.</p>
+              </div>
+      
+            </div>
+          </div>
+          <div>
+            <button type="button" class="bottomButtons">
+        Save for later
+        </button>
+            <button type="button" class="bottomButtons">
+        Tell your friends
+        </button>
+          </div>
+      
+      
+        </div>
+      </div>
+      <script src="controller.js"></script>
+    </body>
+      </html>
